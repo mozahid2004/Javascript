@@ -142,6 +142,8 @@ let num4 = 3
 
 let num5 = "aaq100";
 
+console.log(0/0);
+
 console.log(typeof(Number(num5)));
 
 // Q15: How do you check the type of a variable in JavaScript?
