@@ -128,21 +128,21 @@
 // 8.Capitalize the first letter of every word in a sentence.
 
 
-let sentence = prompt("Example write something here..")
+// let sentence = prompt("Example write something here..")
 
-console.log(sentence);
+// console.log(sentence);
 
-let eachWord = sentence.split(" ")
+// let eachWord = sentence.split(" ")
 
-// console.log(eachWord);
+// // console.log(eachWord);
  
-const CapitalizedSentance = eachWord.map((elem, ind) => {
-  let eachLetter = elem.split("");
-  let capitalizedLetter = eachLetter[0].toLocaleUpperCase()
-  // console.log(capitalizedLetter);
-  eachLetter.splice(0, 1, capitalizedLetter)
-  console.log();
-  return eachLetter.join("")
-})
+// const CapitalizedSentance = eachWord.map((elem, ind) => {
+//   let eachLetter = elem.split("");
+//   let capitalizedLetter = eachLetter[0].toLocaleUpperCase()
+//   // console.log(capitalizedLetter);
+//   eachLetter.splice(0, 1, capitalizedLetter)
+//   console.log();
+//   return eachLetter.join("")
+// })
 
-console.log(CapitalizedSentance.join(" "));
+// console.log(CapitalizedSentance.join(" "));

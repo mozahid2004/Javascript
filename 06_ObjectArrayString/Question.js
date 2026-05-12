@@ -12,12 +12,12 @@ c)Find All Occurrence Positions
 // let firstName = prompt("Enter FirstName")
 // let lastName = prompt("Enter LastName")
 
-let firstName = "Mozahid"
-let lastName = "Izhar"
+// let firstName = "Mozahid"
+// let lastName = "Izhar"
 
-let FullName = `${firstName.trim()} ${lastName.trim()}`
-//Name into UserName
-let userName = `@${FullName.toLocaleLowerCase()}`
+// let FullName = `${firstName.trim()} ${lastName.trim()}`
+// //Name into UserName
+// let userName = `@${FullName.toLocaleLowerCase()}`
 
 // length of UserNAME and remove Space from uSerNme
 // console.log(userName.replace(" ", ""),"|", FullName.length);
