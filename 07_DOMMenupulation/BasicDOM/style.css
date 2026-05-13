@@ -1,0 +1,16 @@
+h1{
+  background-color: black;
+  color: aquamarine;
+}
+
+p{
+  width: 200px;
+  height: 200px;
+  background-color: violet;
+  padding: 15px;
+  transition: all 1s ease-in;
+}
+
+body{
+  background-color: brown;
+}
