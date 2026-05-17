@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.outerContainer {
+  width: 100%;
+  text-align: center;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.displayColor {
+  background-color: aliceblue;
+  padding: 6px 10px;
+  align-self: center;
+  background-color: antiquewhite;
+}
+
+.magic {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+  border-radius: 50%;
+  background: conic-gradient(
+    red,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet,
+    red
+  );
+  font-weight: 800;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-weight: 700;
+  word-spacing: 2px;
+  letter-spacing: .4px;
+}
+
+.heading {
+  background-color: aliceblue;
+  align-self: center;
+  padding: 10px 20px;
+}
+
+.inputColor {
+  min-width: 300px;
+  height: 20px;
+  padding: 7px;
+  font-size: 18px;
+  outline: none;
+}
